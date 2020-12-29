@@ -1,0 +1,121 @@
+head {
+    display: none;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3%;
+}
+
+.topbar {
+    margin-right: 20px;
+    margin-top: 7px;
+}
+
+.topnav-right {
+    float: right;
+    text-align: right;
+}
+
+#logohome {
+    height: 30px;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+    margin-right: 5px;
+    font-size: 16px;
+    color: darkslategray;
+    text-align: right;
+}
+
+a:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+.meio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+#mainlogo {
+    height: 300px;
+    margin-top: 150px;
+    justify-content: space-around;
+    display: block;
+    margin: auto;
+}
+
+form {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.searchbar {
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 20px;
+    height: 25px;
+    border-width: 1px;
+    border-color: lightgrey;
+    border-style: solid;
+    font-size: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 482px;
+    margin-top: 30px;
+}
+
+.searchbar:focus,
+input:focus {
+    outline: none;
+}
+
+.searchbar:hover {
+    box-shadow: 0px 1px 5px lightgrey;
+}
+
+
+}
+.search {
+    margin-top: 150px;
+    justify-content: space-around;
+    display: block;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    padding-right: 50%;
+    padding-left: 50%;
+}
+input {
+    color: darkslategray;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    margin-top: 25px;
+    padding: 0 16px;
+    margin-left: 15px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+}
+input:hover {
+    color: black;
+    border: solid;
+    border-color: darkgray;
+    border-width: 1px;
+    box-shadow: 0px 1px 1px lightgrey;
+}
+footer {
+    text-align: center;
+    margin-top: 30%;
+    margin-bottom: 5%;
+    color: lightslategrey;
+}
